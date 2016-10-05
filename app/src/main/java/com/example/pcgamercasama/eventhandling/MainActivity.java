@@ -20,7 +20,16 @@ public class MainActivity extends AppCompatActivity {
                 new Button.OnClickListener(){
                     public void onClick(View v){
                         TextView text=(TextView)findViewById(R.id.text);
-                        text.setText("Application Testee avec succees");
+                        text.setText("that was a click");
+                    }
+                }
+        );
+        button.setOnLongClickListener(
+                new Button.OnLongClickListener(){
+                    public boolean onLongClick(View v){
+                        TextView text=(TextView)findViewById(R.id.text);
+                        text.setText("that was a long Click");
+                        return true;
                     }
                 }
         );
