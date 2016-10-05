@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">EventHandling</string>
+    <string name="message_text">Testez l application</string>
+    <string name="Button_text">Clicker sur le button</string>
+
+</resources>
